@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>Sample Page</title>
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        body{
+            background-color: rgb(160,160,160);
+        }
+        table,th,td{
+            border: solid 2px;
+            border-radius: 10px;
+        }
+        th,td{
+            background-color:lavenderblush;
+            border-collapse:collapse;
+        }
+    </style>
+</head> 
+<body>
+    <center>
+    <header style="text-align:center"><h2>Sample HTML Tags</h2></header>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6><hr>
+<p>This is paragraph</p>
+<a href="https://www.royalenfield.com/in/en/home/">Visit royal enfield website</a><br><br>
+<img src="C:\Users\Kamini Balu\Downloads\royal.jpeg" alt="image of a Royal Enfield">
+<p style="color:grey";>This page contain the tags of html</p>
+<p><b>This text is bold</b></p>
+<p><i>This text is italic</i></p>
+<p><em>This text is emphasize</em></p>
+<p><mark>This text is marked</mark></p>
+<p>This text is<sub>subscript</sub></p>
+<p>This text is <sup>superscripted</sup></p>
+<p>blue is deleted<del>Blue</del></p>
+<p>Red is inserted<ins>Red</ins></p>
+<p>Below text are blockquotes</p>
+<p>Schools are opened from <time>9:00</time> to <time>4:00</time></p>
+<blockquote>This text is blockquote means the text is in blockqoute</blockquote>
+<p>This paragraph have a <q>Quotes</q></p>
+<p The Abbreivation of <abbr title="World Health Organisation">WHO</abbr>
+<p>The Book <cite>Power of Your Subconsicous mind</cite> written by Dr.Joseph Murphy </p>
+<p>Below Text contain the right to left directions</p><br>
+<p>Message from Computer</p>
+<p><samp>File not found</samp></p>
+<p>java code looks like<code>"public static void main(String[] args)"</code></p>
+<bdo dir="rtl">"This text contain the right to left directions"</bdo><br><br><hr>
+<table>
+<caption>Employe Details</caption>
+<tr>
+    <th>Employee Name</th>
+    <th>Employee Designation</th>
+    <th>Employee Salary</th>
+</tr>
+<tr>
+    <td>John</td>
+    <td>Data Analytics</td>
+    <td>10,000</td>
+</tr>
+<tr>
+    <td>Steve</td>
+    <td>Front-end Developer</td>
+    <td>15,000</td>
+</tr>
+</table>
+
+<h4><b>Unordered List</b></h4>
+<ul>
+    <li>Front-End</li>
+    <li>Back-End</li>
+    <li>FullStack Developer</li>
+</ul>
+
+<h4><b>Ordered List</b></h4>
+<ol>
+    <li>Front-End</li>
+    <li>Back-End</li>
+    <li>FullStack Developer</li>
+</ol>
+<hr>
+<p>My Friends and I are visited the Madurai meenakshi amman temple! </p>
+<aside>Arulmigu Meenakshi Sundareswarar Temple a.k.a Arulmigu Meenakshi Amman Thirukkovil 
+    is a historic Hindu temple located on the southern bank of the Vaigai River in the temple city of Madurai,
+    Tamil Nadu, India.
+</aside><br><br>
+<form id="form">
+<div class="container">
+    <label for="Name">Name: </label>
+    <input type="text" placeholder="Steve" required><br><br>
+
+    <label for="Email">Email: </label>
+    <input type="email" patter=".+@gmail.com" size="20" required><br><br>
+
+    <lable>Checkbox</lable><br>
+    <input type="checkbox" name="vehicles1" value="Bike">
+    <label for="vehicle1">I have a bike</label><br>
+    <input type="checkbox" name="vehicles2" value="Car">
+    <label for="vehicle2">I have a car</label><br><br>
+
+    <input type="color" id="favcolor" name="favcolor"><br>
+    <label for="favcolor">Select your favorite color:</label><br><br>
+
+    <input type="datetime-local" id="birthdaytime">
+    <label for="birthdaytime">Birthday (date and time):</label><br><br>
+
+    <label for="myfile">Select a Single File</label><br>
+    <input type="file" id="myfile" required><br><br>
+
+    <label for="myfile2">Select a Multiple File</label><br>
+    <input type="file" id="myfile2" multiple required><br><br>
+
+    <label>Hidden input field</label><br>
+    <input type="hidden"><br><br>
+
+    <lable for="month">Month</lable>
+    <input type="month" min="2023-01" max="2024-02" value="2023-02" required><br><br>
+
+    <label for="RollNo">Enter your number: </label>
+    <input type="number" id="RollNO" min="10" max="20" required><br><br>
+
+    <lable for="password">Password</lable>
+    <input type="password" id="password" minlength="6" maxlength="8" required><br><br>
+
+    <label>Fav Language</label><br>
+    <input type="radio" id="html" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" value="CSS">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="javascript" value="JavaScript">
+    <label for="javascript">JavaScript</label><br><br>
+
+    <label for="vol">Volume (between 0 and 50):</label>
+    <input type="range" id="vol" name="vol" min="0" max="50">
+
+    <input type="button" onclick="alert('Hello World!')" value="Click Me!"> <br><br>
+
+    <label>Enter your phone number</label>
+    <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+
+    <label>Enter your log in time</label>
+    <input type="time"  min="10:00" max="12:00" required><br><br>
+
+    <label>Enter the URL</label>
+    <input type="url" pattern="https://.*" size="30" required > <br><br>
+    
+    <input type="submit" value="Submit">
+    <input type="reset" value="reset">
+</div>
+</form>
+
+<br><br>
+<video controls autoplay>
+    <source src="C:\Users\Kamini Balu\Downloads\video.mp4" type="video/mp4">
+</video>
+
+<br><br>
+<audio controls autoplay>
+    <source src="C:\Users\Kamini Balu\Downloads\audio.ogg" type="audio/ogg">
+</audio>
+
+<br><br>
+<picture>
+    <source media="(min-width:650px)" srcset="C:\Users\Kamini Balu\Downloads\650px.jpg">
+    <source media="(min-width:300px)" srcset="C:\Users\Kamini Balu\Downloads\300px.jpg">
+    <img src="C:\Users\Kamini Balu\Downloads\1200px.jpg" alt="beach" style="width:auto">
+</picture>
+
+<br><br>
+<lable for="review"><b>Your Feedback</b></lable><br>
+<textarea style="border-radius:5px;" row="4" cols="100">Review can be written in this text area</textarea>
+
+<article>
+    <h2>Dell Computers</h2>
+    <p>Dell computers are one of the leading brand in the world</p>
+
+    <section>
+        <h4>Dell 4Gb system</h4>
+        <p>A system with 4GB of RAM is relatively low by today's standards, especially for demanding tasks like gaming, video editing, or running multiple applications simultaneously</p>
+    </section>
+    <section>
+        <h4>Dell 8Gb</h4>
+        <p>A Dell system with 8GB of RAM would generally offer better performance and multitasking capabilities compared to a system with only 4GB of RAM.</p>
+    </section>
+</article>
+<br>
+
+<p>Create a circle using support vector graphics</p>
+<svg height:"30" width:"40">
+    <circle cx="30" cy="20" r="20" stoke="grey" stoke-width="2" fill="white"></circle>
+</svg><br>
+
+<div>
+    <label for="file">File Loading...</label>
+    <progress id="file" value="50" max="100"></progress>
+</div>
+<script src="script.js"></script>
+
+
+<hr>
+<address>
+    No.232, <br>
+    New cross street,<br>
+    Tiruchirappalli.<br>
+</address>
+<footer style="text-align:center";>
+    All copyright are reserved
+</footer></center>
+<marquee class="marq" bgcolor="Green" 
+direction="left" loop=""> 
+<div class="geek1"> 
+GeeksforGeeks 
+</div> 
+<div class="geek2"> 
+A computer science portal for geeks 
+</div> 
+</marquee> 
+</body>
+</html>
+
