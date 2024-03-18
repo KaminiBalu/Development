@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sample css</title>
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/e59fd1f835.js" crossorigin="anonymous"></script>
+
+<!--internal stylesheet-->
+<style>
+   table{
+    text-align:left;
+    }
+    th,td{
+        border-collapse:collapse;
+        background-color:rgb(63, 58, 58);
+        color:rgb(222, 214, 214);
+        padding:1.5em;
+        border-radius:10px;
+    }
+    div#margin{
+    border-top:120px;
+    border-bottom:150px;
+    border-right:200px;
+    border-left:100px;
+}
+</style>
+
+</head>
+<body> 
+<h1>This is first heading</h1>
+<p>This is first paragraph</p>
+<p id="para2">This is second paragraph with id name</p>
+<p class="para3">This is third paragraph with class name</p>
+<h3 class="para3">This is heading with text captialization</h3>
+
+<div style="overflow-x:auto;">
+<table>
+    <caption style="text-decoration: underline; font-weight: 200; text-transform: uppercase; color:black;">Employe Details</caption><br>
+    <tr style="text-transform: uppercase; font-weight:200;">
+        <th>Employee Name</th>
+        <th>Employee Designation</th>
+        <th>Employee Salary</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Data Analytics</td>
+        <td>10,000</td>
+    </tr>
+    <tr>
+        <td>Steve</td>
+        <td>Front-end Developer</td>
+        <td>15,000</td>
+    </tr>
+    </table><br><br></div>
+
+<div id="container">
+    <label for="Name">Name: </label>
+    <input type="text" id="name" placeholder="Steve" required><br><br>
+    <label for="Email">Email: </label>
+    <input type="email" id="email" value="steve24@gmail.com" pattern=".+@gmail.com" size="20" required><br><br>
+    <input type="submit" value="Submit">
+</div>
+
+<p class="dotted">A dotted border</p>
+<p class="dashed">A dashed border</p>
+<p class="solid">A solid border</p>
+<p class="double">A double border</p>
+<p class="groove">A groove border</p>
+<p class="inset">A inset border</p>
+<p class="outset">A outset border</p>
+<p class="ridge">A ridge border</p>
+<p class="none">none border</p>
+<p class="hidden">A hidden border</p>
+
+<p id="margin">
+    This div have 120px top margin, 150px bottom margin, 100px left margin, 200px right margin
+</p>
+
+<p id="first">
+    CSS, which stands for Cascading Style Sheets, is a style sheet language used to describe the presentation of a document written in a markup language like HTML. 
+    It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. it is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+</p>
+<p id="second">
+    CSS, which stands for Cascading Style Sheets, is a style sheet language used to describe the presentation of a document written in a markup language like HTML. 
+    It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+</p>
+<p id="third">
+    CSS, which stands for Cascading Style Sheets, is a style sheet language used to describe the presentation of a document written in a markup language like HTML. 
+    It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
+</p>
+
+<p id="over">overline decoration</p>
+<p id="under">underline decoration</p>
+<p id="linethrough">linethrough decoration</p>
+<p id="overunder">overline and underline decoration</p>
+
+<!--font awesome icon-->
+<i class="fas fa-cloud"></i><br>
+<i class="fas fa-user"></i><br>
+<i class="fas fa-location"></i><br>
+<i class="fas fa-desktop"></i><br>
+<i class="fas fa-images"></i><br><br>
+
+<div class="ex1">This div element has width:500px;</div>
+<div class="ex2">This div element has max-width:500px</div><br><br>
+<div class="static">This div element has position: static;</div><br>
+<div class="relative">This div element has position: relative;</div><br>
+<div class="fixed">This div element has position: fixed;</div><br>
+<div class="relative1">
+    <div class="absolute">This div element has position: absolute;</div>
+</div><br>
+<div class="sticky">This div element has position: sticky;</div><br>
+
+<div id="overflowtest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content.CSS, which stands for Cascading Style Sheets,is a style sheet language used to describe the presentation of a document written in a markup language like HTML. It is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. Full stack development refers to the practice of working on both the front-end and back-end portions of a web application or software project. A "stack" refers to the collection of technologies and tools used to build a particular type of software, and a "full stack" developer is proficient in working with both the front-end and back-end technologies within that stack.</div><br><br>
+<!--<div><p><img src="C:\Users\Kamini Balu\Downloads\istockphoto-1010593510-1024x1024.jpg" id="img" alt="women with laptops">Full stack development refers to the practice of working on both the front-end and back-end portions of a web application or software project.A "stack" refers to the collection of technologies and tools used to build a particular type of software and a "full stack" developer is proficient in working with both the front-end and back-end technologies within that stack</p></div>-->
+<div id="hide">Hover over this div element to show the p element<p id="hidden">Here I am!</p></div>
+<p class="specific">You can use the ::first-line pseudo-element to add a special effect to the first line of a text. Some more text. And even more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more, and more.</p>   
+<p class="content">The ::before pseudo-element inserts content before the content of an element.</p><br>
+<p class="content2">The ::after pseudo-element inserts content after the content of an element.</p><br>
+<p class="select"><i><b>select some text.</b></i></p>
+
+<div class="background">
+    <div class="transbox">
+        <p>This is some text that is placed in the transparent box.</p>
+    </div>
+</div>
+
+
+<img src="C:\Users\Kamini Balu\Downloads\img_tree.png">
+<p>Because the image has a z-index of -1, it will be placed behind the text.</p><br>
+<ul>
+    <li><a href="#home">HOME</li>
+    <li><a href="#ABOUT">ABOUT</li>
+    <li><a href="#SERVICE">SERVICE</li>
+    <li><a href="#NEWS">NEWS</li>
+    <li><a href="#CONTACT">CONTACT US</li></a>
+</ul><br><br><hr>
+
+<div class="dropdown">
+    <span><b>Move mouse over me!</b></span>
+    <div class="dropdown-content">
+        <p>HELLO WORLD!</p>
+    </div>
+</div><br><br><br><br><br><br>
+
+<div class="dropdown2">
+    <button class="dropbtn">Dropdown Menu</button>
+    <div class="dropdownMenu">
+        <a href="#link">Link 1</a>
+        <a href="#link2">Link 2</a>
+        <a href="#link3">Link 3</a>
+    </div>
+</div><br><br><br><br><br><br><br><br><br><br><br><br><hr>
+
+<h2><B>Dropdown Image</B></h2>
+<div class="dropdown3">
+    <img src="unpl.jpg" alt="Image of a book" width="70" height="50">
+    <div class="dropdowncontent">
+        <img src="unpl.jpg" alt="Image of a book" width="200" height="100">
+        <div class="desc">The articles</div>
+    </div>
+</div><br><br><br><br><br><br><br><hr>
+
+<h2>Image Gallery </h2>
+<div class="resp">
+<div class="responsive">
+<div class="gallery">
+    <a target="_blank1" href="david-iskander-GTnFf_44e7o-unsplash.jpg">
+      <img src="david-iskander-GTnFf_44e7o-unsplash.jpg" alt="A women with book" width="400" height="250">
+    </a>
+    <div class="desc">A women with journal</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank2" href="img.jpg">
+      <img src="img.jpg" alt="A men with editing setup" width="600" height="400">
+    </a>
+    <div class="desc">A men with camera and laptop</div>
+  </div>
+</div>
+  
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank3" href="venti-views-lI7dlA5VBp8-unsplash.jpg">
+      <img src="venti-views-lI7dlA5VBp8-unsplash.jpg" alt="A netflix office" width="600" height="400">
+    </a>
+    <div class="desc">Netflix office</div>
+  </div>
+</div>
+</div><br><br><br><br><br><br><br><br><br><br>
+
+<h1>Using CSS Counters</h1>
+<h2 class="section1">HTML/cssTutorial</h2>
+<h3 class="subsection">HTML</h3>
+<h3 class="subsection">CSS</h3>
+<h3 class="subsection">Bootstrap</h3>
+<h3 class="subsection">W3.CSS</h3>
+
+<h2 class="section1">Script Tutorial</h2>
+<h3 class="subsection">JavaScript</h3>
+<h3 class="subsection">jQuery</h3>
+<h3 class="subsection">React</h3>
+
+<h2 class="section1">Programming Tutorial</h2>
+<h3 class="subsection">Python</h3>
+<h3 class="subsection">Java</h3>
+<h3 class="subsection">C++</h3>
+<br>
+
+<div id="cal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae iure eveniet nesciunt iste accusantium possimus quis repellendus excepturi a.</div><br>
+
+<div id="min">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae iure eveniet nesciunt iste accusantium possimus quis repellendus excepturi a.</div><br>
+
+<div id="max">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti molestiae iure eveniet nesciunt iste accusantium possimus quis repellendus excepturi a.</div><br>
+
+<div id="center1">this div element is centered</div><br>
+<p>Center an image</p>
+<img src="david-iskander-GTnFf_44e7o-unsplash.jpg" class="img2"><br><br>
+
+<div id="container2">
+    <div class="item1">Item1</div>
+    <div class="item2">Item2</div>
+    <div class="item3">Item3</div>
+    <div class="item4">Item4</div>
+    <div class="item5">Item5</div>
+    <div class="item6">Item6</div>
+    <div class="item7">Item7</div>
+    <div class="item8">Item8</div>
+</div>
+
+<div class="container3">
+    <div class="item">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam omnis consectetur blanditiis tenetur esse eius maiores, aperiam cupiditate vel molestiae qui sed officiis voluptates, officia nemo reiciendis velit est asperiores alias id assumenda, veritatis eligendi?</div>
+    <div class="item">item 2</div>
+    <div class="item">item 3</div>
+    <div class="item">item 4</div>
+    <div class="item">item 5</div>
+    <div class="item">item 6</div>
+    <div class="item">item 7</div>
+    <div class="item">item 8</div>
+    <div class="item">item 9</div>
+</div>
+
+<!-- Box shadow -->
+<h3><b>Box shadow</b></h3>
+<div class="card">
+    <div class="header">
+      <h1>1</h1>
+    </div>
+  
+    <div class="container">
+      <p>January 1, 2021</p>
+    </div>
+</div>
+
+
+<!-- Css 2D transforms -->
+<h3><b><u>Css 2D transforms</u></b></h3><br>
+<div class="transform">
+    This div element is moved 50 pixels to the right, and 100 pixels down from its current position.
+</div>
+
+<!-- Css 2D translate -->
+<h3><b></u>Css 2D translate</u></b></h3>
+<h1>The rotate() Method</h1>
+<p>The rotate() method rotates an element clockwise or counter-clockwise.</p>
+<div class="rotate">
+This a normal div element.
+</div>
+<div class="rotate" id="myDiv">
+This div element is rotated clockwise 5 degrees.
+</div>
+
+<!-- Css 2D scale -->
+<h3><b></u>Css 2D scale</u></b></h3>
+<p>The following example increases the element to be two times of its original width, and three times of its original height:</p>
+<div class="scale">
+    This div element is two times of its original width, and three times of its original height.
+</div>
+<p>The following example decreases the element to be half of its original width and height:</p>
+<div class="scale1">
+    This div element is two times of its original width, and three times of its original height.
+</div>
+
+<!-- Css 2D Skew -->
+<h3><b></u>Css 2D Skew</u></b></h3>
+<div class="skew">
+    This a normal div element.
+</div>
+    
+<div class="skew" id="myDiv1">
+    This div element is skewed 20 degrees along the X-axis, and 10 degrees along the Y-axis.
+</div>
+
+<!-- Css Transitions -->
+<h3><b></u>Css Transitions</u></b></h3>
+<p>Hover over the div element below, to see the transition effect:</p>
+<div class="transition"></div>
+
+
+<!-- Transition-timing-function property -->
+<h3><b></u> Transition-timing-function property</u></b></h3>
+<p>Hover over the div elements below, to see the different speed curves:</p>
+<div >
+    <div class="timing" id="div1">linear</div><br>
+    <div class="timing" id="div2">ease</div><br>
+    <div class="timing" id="div3">ease-in</div><br>
+    <div class="timing" id="div4">ease-out</div><br>
+    <div class="timing" id="div5">ease-in-out</div><br>
+</div>
+
+
+<!-- Transition + Transform -->
+<h3><b></u> Transition + Transform</u></b></h3>
+<div class="transitionform"></div>
+
+<!-- css Animations -->
+<h3><b></u> css Animations</u></b></h3>
+<div class="animation"></div><br>
+<div class="animation1"></div>
+
+<!-- tooltips -->
+<h3><b></u> tooltips</u></b></h3>
+<div class="tooltip1">Hover Over Me
+<span class="tooltiptext1">Tooltip Text</span>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+ 
